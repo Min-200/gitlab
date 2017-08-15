@@ -1,4 +1,4 @@
 my name is ShiMinde
 ShiMinde is god!
 I want Miracle!
-Create a new branch is quick
+Create a new branch is quick % simple.
