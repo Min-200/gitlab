@@ -28,7 +28,7 @@ $ git config --global user.email "email@example.com"
 添加文件到Git仓库，分两步：
 
 第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
-
+       空目录无法add,如果想add一个空目录，在它下面touch一个.gitignore文件
 第二步，使用命令git commit，完成。
 
 git status命令可以让我们时刻掌握仓库当前的状态
