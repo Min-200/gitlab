@@ -22,6 +22,12 @@ $ git config --global user.email "email@example.com"
 git config --global --unset user.name
 git config --global --unset user.email
 
+git 备份
+git clone --bare https://github.com/shiminde/system-Manage.git
+git push --mirror http://git@github.com/shiminde/lalal.git
+
+git 在commit的时候将中文显示未乱码 解决如下
+git config --global core.quotepath false 
 
 
 
