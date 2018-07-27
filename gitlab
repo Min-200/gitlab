@@ -1,7 +1,7 @@
 gitlat安装记录
 1.参考资料　http://blog.csdn.net/discoverer100/article/details/51814171
 
-
+注意：如果gitlab上项目和组所有人只有一个用户，那么删除这个用户的话会删除这个项目和组
 
 1.安装依赖包，运行命令
 
