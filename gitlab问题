@@ -1,0 +1,18 @@
+1.
+[root@localhost CDPlatform_test]# git push -u origin master
+Username for 'http://192.168.110.237': test
+Password for 'http://test@192.168.110.237': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 202 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: GitLab: You are not allowed to push code to protected branches on this project.
+To http://192.168.110.237/PTKF/CDPlatform_test.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: 无法推送一些引用到 'http://192.168.110.237/PTKF/CDPlatform_test.git'
+
+
+
+GitLab一些分支默认被保护，仅仅拥有master级别的用户才能提交到保护分支
+而且master分支默认是保护分支，其他用户需要通过合并issue请求来提交上去
+
+Project: "Settings" -> "Repository" -> scroll down to "Protected branches".
