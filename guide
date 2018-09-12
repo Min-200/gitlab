@@ -162,6 +162,9 @@ Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，我们修改�
 $ git add readme.txt 
 $ git commit -m "conflict fixed"
 即可
+推送新分支到github           git push origin test
+下载远程仓库分支到本地关联    git checkout remotes/origin/test1 -b test1
+
 
 $ g用带参数的git log也可以看到分支的合并情况it log --graph --pretty=oneline –abbrev-commit
 
