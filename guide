@@ -165,7 +165,11 @@ $ git commit -m "conflict fixed"
 推送新分支到github           git push origin test
 下载远程仓库分支到本地关联    git checkout remotes/origin/test1 -b test1
 
-
+分支改名
+	 修改本地分支名		     git branch -m test1 test
+	 下载分支到本地		     git checkout remotes/origin/test1 -b test1
+	 删除远程分支		    	      git push origin --delete test1
+         推送分支到远程		     git push origin test	
 $ g用带参数的git log也可以看到分支的合并情况it log --graph --pretty=oneline –abbrev-commit
 
 
