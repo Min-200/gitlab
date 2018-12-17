@@ -3,6 +3,25 @@ git使用
 １.安装git
 （１）在Linux上安装Git：
 	
+
+源码安装：
+	在此地址选择版本号 https://mirrors.edge.kernel.org/pub/software/scm/git/
+	./configure --prefix=/usr/local/git
+	make && make install 
+	ln -s /usr/local/git/bin/* /usr/local/bin/
+	
+	问题：
+		1、fatal: unable to access 'https://github.com/open-falcon/falcon-plus.git/': SSL connect error
+
+			 解决
+   				yum update -y nss curl libcurl
+
+
+		2.git fatal: Unable to find remote helper for 'https'
+				yum install curl-deve
+        			重新编译安装
+	
+	
 首先，你可以试着输入git，看看系统有没有安装Git：
 $ git
 The program 'git' is currently not installed. You can install it by typing:
