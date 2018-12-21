@@ -14,7 +14,7 @@ vim /opt/gitlab/embedded/service/gitlab-rails/app/policies/project_policy.rb
 ![](https://github.com/shiminde/gitlab/blob/master/image/guest.png)
 
 
-例如： 我现在不想让maintainer_access添加人员和修改项目信息，我在图5中注释掉 
+例如： 我现在不想让maintainer_access添加人员和修改项目信息，我在上图中注释掉 
 ```
 gitlab-ctl reconfigure 
 gitlab-ctl restart
