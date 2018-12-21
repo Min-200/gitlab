@@ -3,6 +3,7 @@
 场景: 在项目中默认的Main角色，拥有合并代码、修改项目设置、添加人员的权限。
 			最终我想实现Main角色只能合并代码，去掉其他权限
 
+
 vim /opt/gitlab/embedded/service/gitlab-rails/app/policies/project_policy.rb
 下图1为 所有者的权限 前4个enable意思是拥有guest、reporter、developer、maintainer4个角色的所有权限
 
