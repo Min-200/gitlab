@@ -5,4 +5,4 @@
 
 vim /opt/gitlab/embedded/service/gitlab-rails/app/policies/project_policy.rb
 下图1为 所有者的权限 前4个 enable意思是拥有guest、reporter、developer、maintainer4个角色的所有权限
-![owner](https://github.com/shiminde/gitlab/blob/master/images/owner.png)
+![](https://github.com/shiminde/gitlab/blob/master/images/owner.png)
