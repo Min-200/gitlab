@@ -4,5 +4,11 @@
 			最终我想实现Main角色只能合并代码，去掉其他权限
 
 vim /opt/gitlab/embedded/service/gitlab-rails/app/policies/project_policy.rb
-下图1为 所有者的权限 前4个 enable意思是拥有guest、reporter、developer、maintainer4个角色的所有权限
+下图1为 所有者的权限 前4个enable意思是拥有guest、reporter、developer、maintainer4个角色的所有权限
+
+
 ![](https://github.com/shiminde/gitlab/blob/master/images/owner.png)
+![](https://github.com/shiminde/gitlab/blob/master/images/reporter.png)
+![](https://github.com/shiminde/gitlab/blob/master/images/developer.png)
+![](https://github.com/shiminde/gitlab/blob/master/images/maintainer.png)
+![](https://github.com/shiminde/gitlab/blob/master/images/guest.png)
