@@ -6,7 +6,7 @@ import time
 class Git:
         def __init__(self):
                 self.url = 'http://gitlab.com'
-                self.private_token  = 'AAAXXXXDDDQQQEEE'
+                self.private_token  = 'nRasdasdzxczxc@#'
         def Auth(self):
                 self.gl = gitlab.Gitlab(self.url, private_token=self.private_token)
 	def Project_list(self):
@@ -41,6 +41,16 @@ class Git:
 				#print i.full_path,i.id
 			print i
 	
+	def User_list(self):
+		users = self.gl.users.list()
+		for i in users:
+			print i
+	def User_create(self):
+		user = self.gl.users.create({'email': '984570656@qq.com',
+                        'username': 'smd',
+                        'name': 'smd'},reset_password='true')
+		print "OK"
+
 
 def CreateProject():
 	group_name = raw_input("请输入组名:")
@@ -50,5 +60,6 @@ def CreateProject():
 if __name__=="__main__":
 	obj = Git()
 	obj.Auth()
-	CreateProject()
+	#CreateProject()
+	obj.User_create()
 
